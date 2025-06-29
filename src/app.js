@@ -6,6 +6,7 @@ const cors = require("cors");
 const http = require("http");
 
 require("dotenv").config();
+require("./utils/cronJob");
 
 
 app.use(
